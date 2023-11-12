@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .leftcolumn, .rightcolumn {
+            flex: 50%;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        h2, h5, h3 {
+            text-align: center;
+        }
+
+        .fakeimg {
+            background-color: #ccc;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+        }
+
+        .footer {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 600px) {
+            .leftcolumn, .rightcolumn {
+                flex: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>Patrick's blog</h2>
+    </div>
+    <div class="card" >
+        <h2>About Me</h2>
+    </div>
+    <div style="text-align: center; font-size: 18px;">
+
+        <p><a target="_blank" href="about me.html">ABOUT ME!</a></p>
+
+        <div style="display: flex; justify-content: center;">
+            <img src="https://www.eatthis.com/wp-content/uploads/sites/4/2022/12/arm-workout-sleeve-busting.jpg?quality=82&strip=1" width="800">
+    </div>
+
+    <div class="row" >
+        <div class="leftcolumn">
+            <div class="card" style="text-align: center;">
+                <h2>How I got into the GYM!</h2>
+                <h5>Oct 7, 2023</h5>
+                <p><a target="_blank" href="How_i_got_into_the_gym.html">How I got into the gym</a></p>
+                <div style="display: flex; justify-content: center;">
+                    <img src="https://www.hussle.com/blog/wp-content/uploads/2020/12/Gym-structure-1080x675.png" alt="Image Description" width="800">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card" style="text-align: center;">
+                <h2>How I got into the COLD SHOWERS!</h2>
+                <h5>Oct 20, 2023</h5>
+                <p>How I got into cold showers <a target="_blank" href="How_i_got_into_cold_showers.html">Read More</a></p>
+                <div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                    <img src="https://thecoldplungestore.com/cdn/shop/products/the-cold-plunge-store-cryospring-cold-plunge-hybrid-33621508161707.jpg?v=1684866202&width=1946" alt="Image Description" width="800">
+                    <h3>Made 9/9/23</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="rightcolumn">
+        <div class="card">
+            <h1>Popular Posts:</h1>
+            <div class="post">
+                <a target="_blank" href="Cold_shower.html">Cold shower 101</a>
+                <h3>Cold shower 101</h3>
+                <h5>Oct 5, 2023</h5>
+                <img src="https://images.hindustantimes.com/img/2022/11/27/original/16652f16-6e3c-11ed-95b9-ed68d951bc1b_1669544352496.jpg" alt="Image 1" width="700">
+            </div>
+            <div class="post">
+                <a target="_blank" href="Impossible_pull_up.html">The impossible pull up 101</a>
+                <h3>The impossible pull up 101</h3>
+                <img src="https://miro.medium.com/v2/resize:fit:1200/1*N-aZgMFYD0kmxNm8rIKCUg.jpeg" alt="Image 2" width="700">
+            </div>
+            <div class="post">
+                <a target="_blank" href="Impossible_push_up.html">Impossible push up 101</a>
+                <h3>Impossible push up 101</h3>
+                <img src="https://hips.hearstapps.com/hmg-prod/images/pushup-1591206566.png?crop=0.9913686806411838xw:1xh;center,top&resize=1200:*" alt="Image 3" width="700">
+            </div>
+        </div>
+        <div class="card">
+            <h2>Follow Us on:</h2>
+            <img src="https://t4.ftcdn.net/jpg/02/85/44/69/360_F_285446974_yVsizh73QxHP5QeI1ghJC8Vd5ikhSpxH.jpg" width="300">
+        </div>
+    </div>
+
+</body>
+</html>
